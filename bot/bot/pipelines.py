@@ -33,7 +33,7 @@ class TutorialPipeline(object):
     def process_item(self, item, spider):
         try:
             self.cur.execute(
-            "insert into statistischeBibliothek(orig_id, title, subtitle, amt, region, min_level, betreffsjahr, erscheinungsdatum, eintragungsdatum) values(?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            f"insert into {env('DB_TABLE')}(orig_id, title, subtitle, amt, region, min_level, betreffsjahr, erscheinungsdatum, eintragungsdatum) values(?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (item['id'], item['title'], item['subtitle'], item['amt'], item['region'], item['min_level'], item['betreffsjahr'],
              item['erscheinungsdatum'], item['eintragungsdatum']))
         except mariadb.Error as e:
