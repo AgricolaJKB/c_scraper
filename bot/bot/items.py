@@ -15,3 +15,4 @@ class test_item(scrapy.Item):
    betreffsjahr = scrapy.Field()
    erscheinungsdatum = scrapy.Field()
    eintragungsdatum = scrapy.Field()
+   url = scrapy.Field()
