@@ -31,6 +31,7 @@ class QuotesSpider(scrapy.Spider):
         response.meta['item']['betreffsjahr'] = response.css('#headline>h1::text').get()
         response.meta['item']['erscheinungsdatum'] = response.css('dt:contains("Erscheinungsdatum")+dd>meta::attr("content")').get()
         response.meta['item']['eintragungsdatum'] = datetime.date.today().isoformat()
+        response.meta['item']['url'] = response.request.url
         yield response.meta['item']
         # next_page = response.css('li.next a::attr("href")').get()
         #if next_page is not None:

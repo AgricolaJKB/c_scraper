@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05e50186-6285-4eef-acb8-e9079bb924c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/bot/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/bot/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/bot/spiders/spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/bot/spiders/spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/items.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +118,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="507" y="549" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1410@0.0.2560.1410" timestamp="1617814039631" />
+    <state x="848" y="511" key="FileChooserDialogImpl" timestamp="1617821073797">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="848" y="511" key="FileChooserDialogImpl/0.0.2560.1410@0.0.2560.1410" timestamp="1617821073797" />
     <state width="1256" height="402" key="GridCell.Tab.0.bottom" timestamp="1617747276286">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>

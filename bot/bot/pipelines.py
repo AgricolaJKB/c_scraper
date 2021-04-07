@@ -33,9 +33,9 @@ class TutorialPipeline(object):
     def process_item(self, item, spider):
         try:
             self.cur.execute(
-            f"insert into {env('DB_TABLE')}(orig_id, title, subtitle, amt, region, min_level, betreffsjahr, erscheinungsdatum, eintragungsdatum) values(?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            f"insert into {env('DB_TABLE')}(orig_id, title, subtitle, amt, region, min_level, betreffsjahr, erscheinungsdatum, eintragungsdatum, url) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (item['id'], item['title'], item['subtitle'], item['amt'], item['region'], item['min_level'], item['betreffsjahr'],
-             item['erscheinungsdatum'], item['eintragungsdatum']))
+             item['erscheinungsdatum'], item['eintragungsdatum'], item['url']))
         except mariadb.Error as e:
             print(f"Error: {e}")
         self.connection.commit()
