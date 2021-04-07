@@ -9,14 +9,15 @@ from itemadapter import ItemAdapter
 
 import mariadb
 import sys
+from env import env
 
 class TutorialPipeline(object):
 
     def open_spider(self, spider):
         hostname = 'localhost'
-        username = 'root'
-        password = 'password'  # your password
-        database = 'correctiv'
+        username = env('DB_USERNAME')
+        password = env('DB_PASSWORD')  # your password
+        database = env('DB_DATABASE')
         port = 3306
         try:
             self.connection = mariadb.connect(host=hostname, user=username, password=password, database=database, port=port)
