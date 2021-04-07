@@ -1,12 +1,13 @@
 import scrapy
 import datetime
 from bot.items import test_item
+from env import env
 
 
 class QuotesSpider(scrapy.Spider):
     name = 'quotes'
     start_urls = [
-        'https://www.statistischebibliothek.de/mir/servlets/solr/select?q=mods.genre:journal%20AND%20state:published&sort=modified%20desc&rows=20', #7278',
+        f'https://www.statistischebibliothek.de/mir/servlets/solr/select?q=mods.genre:journal%20AND%20state:published&sort=modified%20desc&start=0&rows={env("ROWS_TO_SCRAPE")}', #7278',
     ]
 
     def parse(self, response):
