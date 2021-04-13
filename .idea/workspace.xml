@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="05e50186-6285-4eef-acb8-e9079bb924c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/bot/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/bot/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/quotes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/quotes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +49,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jtras\Desktop\GitHub\correctiv_scraper\bot\bot" />
+      <recent name="C:\Users\jtras\Desktop\GitHub\correctiv_scraper\bot" />
+      <recent name="C:\Users\jtras\Desktop\GitHub\correctiv_scraper" />
       <recent name="C:\Users\jtras\Desktop\GitHub\correctiv_scraper\bot\bot\spiders" />
       <recent name="C:\Users\jtras\Desktop\GitHub\correctiv_scraper\bot\spiders" />
-      <recent name="C:\Users\jtras\Desktop\GitHub\correctiv_scraper\bot" />
     </key>
   </component>
   <component name="RunManager" selected="Python.spider">
@@ -118,29 +128,29 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="848" y="511" key="FileChooserDialogImpl/0.0.2560.1410@0.0.2560.1410" timestamp="1617821073797" />
-    <state width="1256" height="402" key="GridCell.Tab.0.bottom" timestamp="1617747276286">
+    <state width="1489" height="398" key="GridCell.Tab.0.bottom" timestamp="1618311120534">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1256" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1410@0.0.2560.1410" timestamp="1617747276286" />
-    <state width="1256" height="402" key="GridCell.Tab.0.center" timestamp="1617747276286">
+    <state width="1489" height="398" key="GridCell.Tab.0.bottom/0.0.2560.1410@0.0.2560.1410" timestamp="1618311120534" />
+    <state width="1489" height="398" key="GridCell.Tab.0.center" timestamp="1618311120534">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1256" height="402" key="GridCell.Tab.0.center/0.0.2560.1410@0.0.2560.1410" timestamp="1617747276286" />
-    <state width="1256" height="402" key="GridCell.Tab.0.left" timestamp="1617747276286">
+    <state width="1489" height="398" key="GridCell.Tab.0.center/0.0.2560.1410@0.0.2560.1410" timestamp="1618311120534" />
+    <state width="1489" height="398" key="GridCell.Tab.0.left" timestamp="1618311120534">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1256" height="402" key="GridCell.Tab.0.left/0.0.2560.1410@0.0.2560.1410" timestamp="1617747276286" />
-    <state width="1256" height="402" key="GridCell.Tab.0.right" timestamp="1617747276286">
+    <state width="1489" height="398" key="GridCell.Tab.0.left/0.0.2560.1410@0.0.2560.1410" timestamp="1618311120534" />
+    <state width="1489" height="398" key="GridCell.Tab.0.right" timestamp="1618311120534">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state width="1256" height="402" key="GridCell.Tab.0.right/0.0.2560.1410@0.0.2560.1410" timestamp="1617747276286" />
+    <state width="1489" height="398" key="GridCell.Tab.0.right/0.0.2560.1410@0.0.2560.1410" timestamp="1618311120534" />
     <state x="141" y="351" key="SettingsEditor" timestamp="1617813990374">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="141" y="351" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1617813990374" />
-    <state x="429" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1617813861476">
+    <state x="429" y="529" key="com.intellij.ide.util.TipDialog" timestamp="1617898564398">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="429" y="529" key="com.intellij.ide.util.TipDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1617813861476" />
+    <state x="429" y="529" key="com.intellij.ide.util.TipDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1617898564398" />
   </component>
 </project>
